@@ -6,12 +6,12 @@
         xmlns:local="clr-namespace:SWEN2_TourPlanner"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid ShowGridLines="True">
+    <Grid ShowGridLines="False">
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="10*"/> <!-- those values are relative values, so 1*, 7*, 2* is the same as 10*, 70*, 20* -->
+            <RowDefinition Height="70*"/>
+            <RowDefinition Height="20*"/>
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
@@ -19,19 +19,24 @@
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-
-        <Button Grid.Row="0" Grid.Column="0" Content="Button 1" />
-        <Button Grid.Row="0" Grid.Column="1" Content="Button 2" />
-        <Button Grid.Row="0" Grid.Column="2" Content="Button 3" />
-        <Button Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Content="Button 7"/>
+        <!-- here is some context, if we do not give the content a specific height and with it will try to fit the grid size -->
+        <Button Grid.Row="0" Grid.Column="0" Height="30" Width="100" Content="Add" Click="AddButton_Click" />
+        <Button Grid.Row="0" Grid.Column="1" Content="Delete Selected" Click="DeleteSelectedButton_Click" />
+        <TextBox Name ="UserInput" Grid.Row="0" Grid.Column="2" VerticalAlignment="Center" Width="200" KeyDown="AddViaEnter"/>
+        <!-- be aware to properly load this image you gotta find it in the solution explorer and 
+        set build action content(or resource if you wanna shove the image directly into the assembly) and 
+        copy to output directory to copy if newer  -->
+        <Image Source="/images/fantasymap.png" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" HorizontalAlignment="Right" />
+        <ListBox Name="ItemList" Grid.Row="1" />
         <Button Grid.Row="2" Grid.Column="0" Content="Button 4" />
 
+        <!-- The code below makes it so that there is a grid in a grid, can be useful to further subdevide the grid -->
         <Grid Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" ShowGridLines="True">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-
+            <!-- so here we have 2 buttons that are not in the big grid but the subgrid, thus we use grid row 0 and 1, even though they are in row 3 according to the big grid -->
             <Button Grid.Row="0" Content="Button 5" />
             <Button Grid.Row="1" Content="Button 6" />
         </Grid>
