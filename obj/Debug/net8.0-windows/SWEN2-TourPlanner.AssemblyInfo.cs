@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SWEN2-TourPlanner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10c2ce7bc719fff8fe5d1c294d6bd847d59ce56a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+585280bf5b9d027efc901c3b84b718185cb35e13")]
 [assembly: System.Reflection.AssemblyProductAttribute("SWEN2-TourPlanner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SWEN2-TourPlanner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

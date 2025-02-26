@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\melvi\\source\\repos\\SWEN2-TourPlanner\\SWEN2-TourPlanner\\SWEN2-TourPlanner.csproj": {}
+    "C:\\Users\\melvi\\Documents\\Obsidian Vault\\technikum\\04 Semester\\Swen2\\SWEN2-TourPlanner\\SWEN2-TourPlanner.csproj": {}
   },
   "projects": {
-    "C:\\Users\\melvi\\source\\repos\\SWEN2-TourPlanner\\SWEN2-TourPlanner\\SWEN2-TourPlanner.csproj": {
+    "C:\\Users\\melvi\\Documents\\Obsidian Vault\\technikum\\04 Semester\\Swen2\\SWEN2-TourPlanner\\SWEN2-TourPlanner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\melvi\\source\\repos\\SWEN2-TourPlanner\\SWEN2-TourPlanner\\SWEN2-TourPlanner.csproj",
+        "projectUniqueName": "C:\\Users\\melvi\\Documents\\Obsidian Vault\\technikum\\04 Semester\\Swen2\\SWEN2-TourPlanner\\SWEN2-TourPlanner.csproj",
         "projectName": "SWEN2-TourPlanner",
-        "projectPath": "C:\\Users\\melvi\\source\\repos\\SWEN2-TourPlanner\\SWEN2-TourPlanner\\SWEN2-TourPlanner.csproj",
+        "projectPath": "C:\\Users\\melvi\\Documents\\Obsidian Vault\\technikum\\04 Semester\\Swen2\\SWEN2-TourPlanner\\SWEN2-TourPlanner.csproj",
         "packagesPath": "C:\\Users\\melvi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\melvi\\source\\repos\\SWEN2-TourPlanner\\SWEN2-TourPlanner\\obj\\",
+        "outputPath": "C:\\Users\\melvi\\Documents\\Obsidian Vault\\technikum\\04 Semester\\Swen2\\SWEN2-TourPlanner\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\melvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,8 +40,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -68,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

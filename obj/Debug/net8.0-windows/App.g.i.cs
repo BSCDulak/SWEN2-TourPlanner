@@ -45,7 +45,7 @@ namespace SWEN2_TourPlanner {
         /// InitializeComponent
         /// </summary>
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "9.0.2.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "8.0.8.0")]
         public void InitializeComponent() {
             
             #line 5 "..\..\..\App.xaml"
@@ -60,7 +60,7 @@ namespace SWEN2_TourPlanner {
         /// </summary>
         [System.STAThreadAttribute()]
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "9.0.2.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "8.0.8.0")]
         public static void Main() {
             SWEN2_TourPlanner.App app = new SWEN2_TourPlanner.App();
             app.InitializeComponent();
