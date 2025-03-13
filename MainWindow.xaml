@@ -5,12 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SWEN2_TourPlanner"
         mc:Ignorable="d"
+
+        xmlns:usercontrols="clr-namespace:SWEN2_TourPlanner.Views.UserControls"
         Title="MainWindow" Height="450" Width="800">
     <Grid ShowGridLines="False">
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="10*"/> <!-- those values are relative values, so 1*, 7*, 2* is the same as 10*, 70*, 20* -->
-            <RowDefinition Height="70*"/>
+            <RowDefinition Height="40*"/> <!-- those values are relative values, so 1*, 7*, 2* is the same as 10*, 70*, 20* -->
+            <RowDefinition Height="30*"/>
             <RowDefinition Height="20*"/>
         </Grid.RowDefinitions>
 
@@ -20,9 +22,8 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <!-- here is some context, if we do not give the content a specific height and with it will try to fit the grid size -->
-        <Button Grid.Row="0" Grid.Column="0" Height="30" Width="100" Content="Add" Click="AddButton_Click" />
-        <Button Grid.Row="0" Grid.Column="1" Content="Delete Selected" Click="DeleteSelectedButton_Click" />
-        <TextBox Name ="UserInput" Grid.Row="0" Grid.Column="2" VerticalAlignment="Center" Width="200" KeyDown="AddViaEnter"/>
+        <usercontrols:MenuBar Grid.ColumnSpan="3"></usercontrols:MenuBar>
+        
         <!-- be aware to properly load this image you gotta find it in the solution explorer and 
         set build action content(or resource if you wanna shove the image directly into the assembly) and 
         copy to output directory to copy if newer  -->

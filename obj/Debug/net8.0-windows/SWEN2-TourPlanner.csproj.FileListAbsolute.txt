@@ -44,3 +44,10 @@ C:\Users\melvi\Documents\Obsidian Vault\technikum\04 Semester\Swen2\SWEN2-TourPl
 C:\Users\melvi\Documents\Obsidian Vault\technikum\04 Semester\Swen2\SWEN2-TourPlanner\obj\Debug\net8.0-windows\SWEN2-TourPlanner.pdb
 C:\Users\melvi\Documents\Obsidian Vault\technikum\04 Semester\Swen2\SWEN2-TourPlanner\obj\Debug\net8.0-windows\SWEN2-TourPlanner.genruntimeconfig.cache
 C:\Users\melvi\Documents\Obsidian Vault\technikum\04 Semester\Swen2\SWEN2-TourPlanner\obj\Debug\net8.0-windows\ref\SWEN2-TourPlanner.dll
+C:\Users\melvi\Documents\Obsidian Vault\technikum\04 Semester\Swen2\SWEN2-TourPlanner\obj\Debug\net8.0-windows\Views\Subviews\Tab1.g.cs
+C:\Users\melvi\Documents\Obsidian Vault\technikum\04 Semester\Swen2\SWEN2-TourPlanner\obj\Debug\net8.0-windows\Views\Subviews\Tab2.g.cs
+C:\Users\melvi\Documents\Obsidian Vault\technikum\04 Semester\Swen2\SWEN2-TourPlanner\obj\Debug\net8.0-windows\Views\UserControls\MenuBar.g.cs
+C:\Users\melvi\Documents\Obsidian Vault\technikum\04 Semester\Swen2\SWEN2-TourPlanner\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\melvi\Documents\Obsidian Vault\technikum\04 Semester\Swen2\SWEN2-TourPlanner\obj\Debug\net8.0-windows\Views\Subviews\Tab1.baml
+C:\Users\melvi\Documents\Obsidian Vault\technikum\04 Semester\Swen2\SWEN2-TourPlanner\obj\Debug\net8.0-windows\Views\Subviews\Tab2.baml
+C:\Users\melvi\Documents\Obsidian Vault\technikum\04 Semester\Swen2\SWEN2-TourPlanner\obj\Debug\net8.0-windows\Views\UserControls\MenuBar.baml
